@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">quanlicongty</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="taikhoan">Tài Khoản </string>
+    <string name="nhaptaikhoan">Nhập tài khoản...</string>
+    <string name="nhapmatkhau">Nhập mật khẩu...</string>
+    <string name="matkhau">mật khẩu</string>
+</resources>
