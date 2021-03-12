@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">congtykeri</string>
-    <string name="danhsachcongty"> Danh Sách Các Công Ty</string>
-    <string-array name="locDulieu">
-        <item> Mới Nhất </item>
-        <item> Cũ Nhất </item>
-    </string-array>
-</resources>
