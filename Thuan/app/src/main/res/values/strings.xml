@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Desgin Register</string>
+    <string name="name_res">Register Bussiness</string>
+    <string name="buss_name">Bussiness Name:</string>
+    <string name="buss_address">Bussiness Address:</string>
+    <string name="email">Email:</string>
+    <string name="tax">Tax Identification Number:</string>
+    <string name="phone">Phone:</string>
+    <string name="res">Register</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dep2"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/name_res"
+            android:textSize="35dp"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/buss_name"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_contacts_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtBussName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/buss_address"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_add_location_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtBussAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/email"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_contact_mail_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/tax"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_money_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtTax"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/phone"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/res"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"></Button>
+    </LinearLayout>
+</ScrollView>
