@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thuctap</string>
+    <string name="name_regi">Register</string>
+    <string name="tv_name">Tên doanh nghiệp:</string>
+    <string name="tv_address">Địa chỉ doanh nghiệp:</string>
+    <string name="email">Email:</string>
+    <string name="tax">Mã số thuế:</string>
+    <string name="phone">Số điện thoại:</string>
+    <string name="res">Đăng ký</string>
+    <string name="pass">Mật khẩu</string>
+
+</resources>

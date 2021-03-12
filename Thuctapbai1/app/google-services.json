@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812436897250",
+    "project_id": "thuctaptn-3bb90",
+    "storage_bucket": "thuctaptn-3bb90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812436897250:android:7dbb822108b23a29914dbb",
+        "android_client_info": {
+          "package_name": "com.example.thuctaptn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812436897250-d8g8j89imu7lb1irkrd0h29njnjl762a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI7OszFDzRhgquEr7xDGfdAGXnuvhJILE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812436897250-d8g8j89imu7lb1irkrd0h29njnjl762a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnhome"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="never"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/btnexit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:showAsAction="never"
+        android:title="Thoát"/>
+    <item
+    android:id="@+id/btnDelete"
+    app:showAsAction="never"
+    android:icon="@drawable/ic_baseline_exit_to_app_24"
+    android:title="Xoá"/>
+    <item
+        android:id="@+id/btnUpdate"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Sửa"/>
+</menu>
