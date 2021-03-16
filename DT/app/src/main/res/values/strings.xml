@@ -5,4 +5,8 @@
     <string name="nhaptaikhoan">Nhập tài khoản...</string>
     <string name="nhapmatkhau">Nhập mật khẩu...</string>
     <string name="matkhau">mật khẩu</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangky">Đăng Ký</string>
+    <string name="xnmatkhau">xác minh mật khẩu</string>
+    <string name="nhaplaimatkhau">nhập lại mật khẩu</string>
 </resources>

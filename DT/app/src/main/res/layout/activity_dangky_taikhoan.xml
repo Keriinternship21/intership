@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".DangkyTaikhoan">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/login"
+        android:text="@string/dangky"
         android:textAllCaps="true"
         android:textSize="30sp" />
 
@@ -28,7 +28,7 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/txtTK"
+            android:id="@+id/txtdkTK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nhaptaikhoan" />
@@ -43,35 +43,39 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="@string/matkhau"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/txtMK"
+            android:id="@+id/txtdkMK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nhapmatkhau" />
+            android:hint="@string/nhapmatkhau"
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btndangNhap"
-            android:layout_width="150sp"
-            android:layout_height="50sp"
-            android:layout_marginLeft="10sp"
-            android:text="@string/dangnhap" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/xnmatkhau"
+            android:textSize="20dp" />
 
-        <Button
-            android:id="@+id/btndangKy"
-            android:layout_width="150sp"
-            android:layout_height="50sp"
-            android:layout_marginLeft="10sp"
-            android:text="@string/dangky" />
+        <EditText
+            android:id="@+id/txtdkxacnhanMK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nhaplaimatkhau"
+            android:inputType="number" />
     </LinearLayout>
 
-
+    <Button
+        android:id="@+id/btndktaoTK"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:text="@string/dangky" />
 </LinearLayout>
