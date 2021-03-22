@@ -1,0 +1,111 @@
+:root{
+    --bg-nav : #fc422b;
+    --color-white : #fff;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --width_nav : 30%;
+}
+/* @media (min-width: 320px) and (max-width: 480px) {
+   
+    
+} */
+@media screen and (max-width : 415px) { 
+        .body{
+            max-width: max-content;
+        }
+        .nav {
+            width: 100% ;
+        }
+        .header-menu{
+            height: 10%;
+            width: 100%;
+            background: var(--bg-nav);
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 15px;
+        }
+        .sanpham{
+            height: auto;
+            align-items: center;
+        }
+        .content{
+           margin: 0;
+           padding-top: 53%;
+        }
+        .footer-container{
+            font-size: 10px;
+        }        
+}
+@media  screen and (min-device-width : 768px) and (max-device-width : 1024px)  and (orientation:landscape) 
+{
+    
+    .body{
+        max-width: max-content;    
+    }
+    .nav {
+        width: 70% ;
+        display: flex;
+    }
+    .nav-content h4{
+      font-size: 25px;
+    }
+    .content{
+        margin: 0;
+        padding-top: 35%;
+     }
+    .iconbar{
+        display: block;
+        color: var(--dark);
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    
+    .footer-container{
+        font-size: 15px;
+    }   
+}
+@media  screen  and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation:portrait) 
+{
+    .body{
+        max-width: max-content;
+    }
+    .nav {
+        width: 70% ;
+    }
+    /* .nav-content h4{
+      font-size: 35px;
+    } */
+    .content{
+        margin: 0;
+        padding-top: 35%;
+     }
+    .iconbar{
+        display: block;
+        color: var(--dark);
+        margin-left: 40px;
+        margin-top: 50px;
+    }  
+    .footer-container{
+        font-size: 15px;
+    }
+}

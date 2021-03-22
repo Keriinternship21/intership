@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header class="header-content">
+        <label for="checkNav">
+            <i class="fas fa-bars iconbar" style="margin-left: 20px; margin-top: 30px; "></i>
+        </label>
+        <input type="checkbox" name="checkNav" id="checkNav">
+        <div class="nav">
+            <div class="header-menu">
+                <div>
+                    <i class="fas fa-bars"></i>
+                    <span style="padding-left : 20px">Shade type</span>
+                </div>
+                <div>
+                    <label for="checkNav" class="iconexit">
+                        <i class="fas fa-times iconExit"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="nav-content">
+                <!-- menu1 -->
+                <!-- <div class="item-content">
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/rolete.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn" id="checkBtn1"
+                                checked>
+                            <label for="checkBtn1">
+                                <h4>Roller shutter</h4>
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/zaluzije.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <input type="radio" value="checkBtn2" name="checkBtn" class="checkBtn" id="checkBtn2">
+                            <label for="checkBtn2">
+                                <h4>Venetian blinds</h4>
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                </div> -->
+                <!-- menu2 -->
+                <!-- <div class="cont3" value="cont3" id="cont3">
+                    <div class="view-item">
+                        <div class="image">
+                            <img src="./public/images/cc1.jfif" class="img-fluid" alt="">
+                        </div>
+                        <div class="options">
+                            <div class="kRadio-btn">
+                                <input type="radio" name="checkpr" id="val1" class="checkpr" value="val1">
+                                <span class="text-ra">External mount-on</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="view-item">
+                        <div class="image">
+                            <img src="./public/images/cc2.jfif" class="img-fluid" alt="">
+                        </div>
+                        <div class="options">
+                            <div class="kRadio-btn">
+                                <input type="radio" name="checkpr" id="val2" class="checkpr" value="val2">
+                                <span class="text-ra">Built-in</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- menu3 -->
+                <!-- <div class="item-content1" id="menu3">
+                    <div class="zindex" >
+                        <div class="row">
+                            <div class="col-md-6 col-6">
+                                <div class="btn-click btnClickShow">
+                                    <span data-item="visible">Visible</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <div class="btn-click btnClickShow">
+                                    <span data-item="concealed">Concealed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-content-menu active" id="visible" value="visible">
+                        <div class="content-nav-menu">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/vidna3.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn" id="checkBtn1"
+                                    checked>&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing external visible rolling shutters on the window frame - manual or
+                                        motor drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="content-nav-menu">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/vidna2.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn"
+                                    id="checkBtn1">&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing an external visible rolling shutter on the window with a custom
+                                        lintel - manual or motor drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="content-nav-menu">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/vidna1.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn"
+                                    id="checkBtn1">&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing an external visible rolling shutter above the window frame - motor
+                                        drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-content-menu" id="concealed" value="concealed">
+                        <div class="content-nav-menu1 active">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/podometna2.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn" id="checkBtn1"
+                                   >&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing external visible rolling shutters on the window frame - manual or
+                                        motor drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="content-nav-menu1">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/podometna3.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn"
+                                    id="checkBtn1">&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing an external visible rolling shutter on the window with a custom
+                                        lintel - manual or motor drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="content-nav-menu1">
+                            <div class="img-product">
+                                <img class="img-fluid" src="./public/img/podometna1.jpg">
+                            </div>
+                            <div class="text-menu">
+                                <input type="radio" value="checkBtn1" name="checkBtn" class="checkBtn"
+                                    id="checkBtn1">&ensp;
+                                <label for="checkBtn1">
+                                    <h5>Installing an external visible rolling shutter above the window frame - motor
+                                        drive</h5>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- menu9 -->
+                <!-- <div class="item-content1" id="menu9">
+                    <div class="zindex9">
+                        <div class="row">
+                            <div class="col-md-6 col-6">
+                                <div class="btn-click btnClickShow">
+                                    <span data-item="fasada">Facade</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <div class="btn-click btnClickShow">
+                                    <span data-item="roof">Roof</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-content-menu active" id="visible" value="visible">
+                        <div class="sub-sub-view scrolling"><a class="house-color-item selected" cid="c219"><i
+                                    class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cfc3c0"></a><a
+                                class="house-color-item" cid="c220"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#8da972"></a><a
+                                class="house-color-item" cid="c221"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#dadcd8"></a><a
+                                class="house-color-item" cid="c222"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#aaa39a"></a><a
+                                class="house-color-item" cid="c223"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#eadfd1"></a><a
+                                class="house-color-item" cid="c224"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#f6e3ae"></a><a
+                                class="house-color-item" cid="c225"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#b5a8a3"></a><a
+                                class="house-color-item" cid="c226"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cabcb7"></a><a
+                                class="house-color-item" cid="c227"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d5e2e7"></a><a
+                                class="house-color-item" cid="c228"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#a7857e"></a><a
+                                class="house-color-item" cid="c229"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#decebd"></a><a
+                                class="house-color-item" cid="c230"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#b09a85"></a><a
+                                class="house-color-item" cid="c231"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#eeddcc"></a><a
+                                class="house-color-item" cid="c232"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#c4bfb8"></a><a
+                                class="house-color-item" cid="c233"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cdbdaa"></a><a
+                                class="house-color-item" cid="c234"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d8958b"></a><a
+                                class="house-color-item" cid="c235"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#a8adb2"></a><a
+                                class="house-color-item" cid="c236"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#e8dcc2"></a><a
+                                class="house-color-item" cid="c237"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#f5f5f5"></a><a
+                                class="house-color-item" cid="c238"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#b2becf"></a><a
+                                class="house-color-item" cid="c239"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cab7a4"></a><a
+                                class="house-color-item" cid="c240"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d2bbb0"></a><a
+                                class="house-color-item" cid="c241"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#9f8f89"></a><a
+                                class="house-color-item" cid="c242"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#dcaca4"></a><a
+                                class="house-color-item" cid="c243"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#acabac"></a><a
+                                class="house-color-item" cid="c244"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#eebc8b"></a><a
+                                class="house-color-item" cid="c245"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#c1e2dc"></a><a
+                                class="house-color-item" cid="c246"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cad4df"></a><a
+                                class="house-color-item" cid="c247"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d7e9e2"></a><a
+                                class="house-color-item" cid="c248"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#a7d3d0"></a><a
+                                class="house-color-item" cid="c249"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#e8c7c0"></a><a
+                                class="house-color-item" cid="c250"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#b0c0ce"></a><a
+                                class="house-color-item" cid="c251"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#f4cda2"></a><a
+                                class="house-color-item" cid="c252"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#c5c8c9"></a><a
+                                class="house-color-item" cid="c253"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d0c2b8"></a><a
+                                class="house-color-item" cid="c254"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#8fb1c8"></a><a
+                                class="house-color-item" cid="c255"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#dbe0e2"></a><a
+                                class="house-color-item" cid="c256"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#abc7d4"></a><a
+                                class="house-color-item" cid="c257"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#ede6d3"></a><a
+                                class="house-color-item" cid="c258"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#fbde93"></a><a
+                                class="house-color-item" cid="c259"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#bdaba1"></a><a
+                                class="house-color-item" cid="c260"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#cad3db"></a><a
+                                class="house-color-item" cid="c261"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#d7d3cd"></a><a
+                                class="house-color-item" cid="c262"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#a7a5a5"></a><a
+                                class="house-color-item" cid="c263"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#e5e1db"></a><a
+                                class="house-color-item" cid="c264"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#b0b1b2"></a><a
+                                class="house-color-item" cid="c265"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#f2e9d1"></a><a
+                                class="house-color-item" cid="c266"><i class="ok">
+                                    <div class="checkmark">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                    </div>
+                                </i><img src="./public/img/empty.png" style="background-color:#c4c2c0"></a></div>
+                    </div>
+                    <div class="items-content-menu" id="concealed" value="concealed">
+
+                    </div>
+                </div> -->
+
+                <div class="footer">
+                    <div class="footer-content">
+                        <div id="step-back" class="btn-step-back">
+                            <span class="icon"> <i class="fas fa-arrow-left"></i></span>
+                            <span class="btn-lab">BACK</span>
+                        </div>
+                        <div id="step-next" class="btn-step-next">
+                            <span class="btn-lab">NEXT</span>
+                            <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="section-content">
+                <div class="sanpham">
+                    <img src="./public/img/anh2.png" alt="" class="img-fluid" id="product">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-content">
+        <div class="footer-container">
+            <div class="ui-gdpr"><a href="#" class="link" target="_blank" style="color: black;">Data protection</a>
+            </div> &emsp;
+            <div class="ui-copyright"><span>Powered By</span> <span class="title">Konfigurator-tuer.de</span> <span>©
+                    2021</span></div>
+
+        </div>
+    </footer>
+
+    <script>
+        const check = document.querySelector('#checkNav');
+        const content = document.querySelector('.content');
+        let checkState = false;
+        check.addEventListener('click', () => {
+            if (checkState) {
+                content.style.width = '100%';
+                checkState = false;
+            } else {
+                content.style.width = '70%';
+                checkState = true;
+            }
+        })
+    </script>
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/style.js"></script>
+    <script src="./public/js/script.js"></script>
+</body>
+
+</html>
