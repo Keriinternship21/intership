@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:infor_app/models/employee_model.dart';
 import 'package:infor_app/providers/employee_provider.dart';
 import 'package:provider/provider.dart';
-
+import 'employee_add.dart';
 class Employee extends StatelessWidget {
   final data = [EmployeeModel()];
 
@@ -15,7 +15,10 @@ class Employee extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.blue,
         child: Text('+'),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (context) => EmployeeAdd()));
+        },
       ),
       body: RefreshIndicator(
         onRefresh: () =>
@@ -38,7 +41,7 @@ class Employee extends StatelessWidget {
                     itemCount: data.dataEmployee.length,
                     itemBuilder: (context, index) {
                       return Card(
-                        elevation: 5,
+                        elevation: 7,
                         child: ListTile(
                           title: Text(
                             data.dataEmployee[index].name,
@@ -50,8 +53,7 @@ class Employee extends StatelessWidget {
                           trailing: Text(
                               "SDT: ${data.dataEmployee[index].phoneNumber}"),
                           leading: Text(
-                              "MST: ${data.dataEmployee[index].phoneNumber}"),
-
+                              "MST: ${data.dataEmployee[index].taxCode}"),
                         ),
                       );
                     });

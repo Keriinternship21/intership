@@ -15,4 +15,5 @@ class EmployeeModel {
         phoneNumber: json['phone_number'],
         taxCode: json['tax_code'],
       );
+
 }
