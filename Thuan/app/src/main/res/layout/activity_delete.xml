@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dep6"
+    android:background="@drawable/dep11"
     tools:context=".DeleteActivity">
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="20dp"
-            android:text="Delete Bussiness"
+            android:text="@string/del_buss"
             android:textSize="35dp"
             android:textColor="@color/red"
             android:gravity="center"
@@ -31,7 +31,7 @@
         </TextView>
 
         <ListView
-            android:id="@+id/lvDanhSach"
+            android:id="@+id/listDelete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

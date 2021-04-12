@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Register">
-        <activity android:name=".DeleteActivity"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".DeleteActivity" />
         <activity android:name=".UpdateActivity" />
         <activity android:name=".ForgotActivity" />
         <activity android:name=".LoginActivity">

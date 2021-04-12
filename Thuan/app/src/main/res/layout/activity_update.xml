@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dep6"
+    android:background="@drawable/dep11"
     tools:context=".UpdateActivity">
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="20dp"
-            android:text="Update Bussiness"
+            android:text="@string/up_buss"
             android:textSize="35dp"
             android:textColor="@color/blue"
             android:gravity="center"
@@ -46,7 +46,63 @@
                 android:textSize="25dp"></TextView>
 
             <EditText
-                android:id="@+id/txtBussNameU"
+                android:id="@+id/UpdateBussName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/user"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/UpdateUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:background="@color/white">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:text="@string/pass"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:textSize="25dp"></TextView>
+
+            <EditText
+                android:id="@+id/UpdatePassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -72,9 +128,8 @@
                 android:drawableLeft="@drawable/ic_baseline_add_location_24"
                 android:drawablePadding="10dp"
                 android:textSize="25dp"></TextView>
-
             <EditText
-                android:id="@+id/txtBussAddressU"
+                android:id="@+id/UpdateBussAddress"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -102,7 +157,7 @@
                 android:textSize="25dp"></TextView>
 
             <EditText
-                android:id="@+id/txtEmailU"
+                android:id="@+id/UpdateEmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -130,7 +185,7 @@
                 android:textSize="25dp"></TextView>
 
             <EditText
-                android:id="@+id/txtTaxU"
+                android:id="@+id/UpdateTax"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -158,7 +213,7 @@
                 android:textSize="25dp"></TextView>
 
             <EditText
-                android:id="@+id/txtPhoneU"
+                android:id="@+id/UpdatePhone"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:textSize="20dp"
@@ -171,16 +226,16 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnRegister"
+            android:id="@+id/btnSave"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:text="Save"
+            android:text="@string/save"
             android:textSize="25dp"
             android:textStyle="italic|bold"></Button>
 
         <ListView
-            android:id="@+id/lvDanhSach"
+            android:id="@+id/listUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

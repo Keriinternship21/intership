@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Desgin Register</string>
+
+    //Layout Register
     <string name="name_res">Register Bussiness</string>
     <string name="buss_name">Bussiness Name:</string>
     <string name="buss_address">Bussiness Address:</string>
@@ -7,4 +9,30 @@
     <string name="tax">Tax Identification Number:</string>
     <string name="phone">Phone:</string>
     <string name="res">Register</string>
+
+    //Layout Login
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="QL">Quản lý</string>
+    <string name="NV">Nhân Viên</string>
+    <string name="log">Login</string>
+    <string name="signup">Or Signup Now</string>
+
+    //Layout Main
+    <string name="del">Xoá</string>
+    <string name="update">Sửa</string>
+
+    //Layout Forgot
+    <string name="forpass">Forgot Your Password?</string>
+    <string name="mail">Your work email</string>
+    <string name="request">Request Password Reset</string>
+    <string name="backlog">Back to Login</string>
+
+    //layout Delete
+    <string name="del_buss">Delete Bussiness</string>
+
+    //layout Update
+    <string name="up_buss">Update Bussiness</string>
+    <string name="save">Save</string>
 </resources>

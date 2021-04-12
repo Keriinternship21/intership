@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dep4"
+    android:background="@drawable/dep11"
     tools:context=".ForgotActivity">
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="50dp"
-            android:text="Forgot Your Password?"
+            android:text="@string/forpass"
             android:textSize="30dp"
             android:textColor="@color/black"
             android:gravity="center"
@@ -39,14 +39,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_margin="5dp"
-                android:text="Your work email"
+                android:text="@string/mail"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/ic_baseline_contact_mail_24"
                 android:drawablePadding="10dp"
                 android:textSize="25dp"></TextView>
 
             <EditText
-                android:id="@+id/txtUsername"
+                android:id="@+id/forgotEmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -85,7 +85,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:text="Request password reset"
+            android:text="@string/request"
             android:textSize="15dp"
             android:textStyle="italic|bold"></Button>
 
@@ -99,7 +99,7 @@
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_margin="15dp"
-                android:text="Back to Login"
+                android:text="@string/backlog"
                 android:textStyle="italic|bold"
                 android:layout_gravity="center"
                 android:gravity="center"
